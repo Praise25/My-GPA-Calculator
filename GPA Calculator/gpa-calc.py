@@ -224,7 +224,9 @@ mainWindow.maxsize(width=int(geo[geo_key][:3]), height=int(geo[geo_key][4:7]))
 mainWindow.minsize(width=int(geo[geo_key][:3]), height=int(geo[geo_key][4:7]))
 mainWindow.mainloop()
 
+# This is just meant for debugging purposes to allow the list to be seen. It has no effect on the program
 print(course_results)
+
 # ==========================================================================================
 
 # Display Window
